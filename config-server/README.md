@@ -38,14 +38,16 @@ This profile uses Vault as a backend repository.
 ```json
 {
   "prop-location": "vault/secret/product-service",
-  "hello": "Hello from Vault"
+  "hello": "Hello from Vault",
+  "configuration-prop.hello": "Hello from Vault (configuration properties)"
 }
 ```
 6.Create secret `product-service,prod`:
 ```json
 {
   "prop-location": "vault/secret/product-service,prod",
-  "hello": "Hello from Vault (for prod profile)"
+  "hello": "Hello from Vault (for prod profile)",
+  "configuration-prop.hello": "Hello from Vault (configuration properties for prod profile)"
 }
 ```
 
