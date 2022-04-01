@@ -1,1 +1,1 @@
-POST http://localhost:8071/actuator/busrefresh
+POST http://localhost:8888/actuator/busrefresh

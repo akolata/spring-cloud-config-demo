@@ -79,13 +79,13 @@ Example HTTP requests are located in `src/test/http` directory.
 
 ### bus refresh
 
-Execute `POST http://localhost:8071/actuator/busrefresh` to trigger RefreshRemoteApplicationEvent manually.  
+Execute `POST http://localhost:8888/actuator/busrefresh` to trigger RefreshRemoteApplicationEvent manually.  
 It will refresh all config clients using spring-cloud-bus.
 
 ### monitor
 
-Execute `POST http://localhost:8071/monitor`  
-Usually this endpoint will be trigerred by VCS webhook, but it can also be triggered manually to refresh specific apps.
+Execute `POST http://localhost:8888/monitor`  
+Usually this endpoint will be triggered by VCS webhook, but it can also be triggered manually to refresh specific apps.
 
 ## Docs keynotes
 

@@ -1,1 +1,1 @@
-GET http://localhost:8071/product-service/prod
+GET http://localhost:8888/product-service/prod
