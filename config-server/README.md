@@ -91,4 +91,6 @@ Usually this endpoint will be triggered by VCS webhook, but it can also be trigg
 
 > The default configuration also detects filesystem changes in local git repositories. In that case, the webhook is not used. However, as soon as you edit a config file, a refresh is broadcast.
 
-This didn't work using profile `native`.
+This didn't work using profile `native`. !!!
+
+In order to enable refreshing properties using 'native' profile, config locations must be outside.
