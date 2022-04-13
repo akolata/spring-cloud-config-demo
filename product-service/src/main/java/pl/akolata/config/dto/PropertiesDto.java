@@ -13,6 +13,7 @@ public class PropertiesDto {
     private Properties injectedUsingValue;
     private Properties injectedUsingEnvironment;
     private ConfigurationProperties configurationPropertiesWithRefreshScope;
+    private ConfigurationProperties configurationPropertiesWithoutRefreshScope;
 
     @Data
     @Builder

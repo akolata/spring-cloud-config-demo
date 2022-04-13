@@ -33,7 +33,7 @@ class ControllerWithoutRefreshScope {
 
     private PropertiesDto buildPropertiesDto() {
         return PropertiesDto.builder()
-                .configurationPropertiesWithRefreshScope(
+                .configurationPropertiesWithoutRefreshScope(
                         PropertiesDto.ConfigurationProperties.builder()
                                 .configurationPropertiesHello(demoProperties.getHello())
                                 .build()
